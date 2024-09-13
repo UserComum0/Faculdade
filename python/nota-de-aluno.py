@@ -1,3 +1,8 @@
+import os
+
+def limpar_tela():
+    os.system('cls')
+
 alunos = []
 num0 = []
 num1 = []
@@ -10,6 +15,7 @@ for i in range(4):
     num1.append(input('Digite a Segunda nota do aluno: '))
     num2.append(input('Digite a Terceira nota do aluno: '))
     num3.append(input('Digite a Quarta nota do aluno: '))
+    limpar_tela()
 
 print('Alunos  | Notas')
 
