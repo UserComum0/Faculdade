@@ -26,5 +26,3 @@ elif imc > 35 and imc <= 39.9:
     print(f'Seu IMC é de {imc:.2f} e você está na Obesidade grau 2')
 else:
     print(f'Seu IMC é de {imc:.2f} e você está na Obesidade grau 3')
-
-LimparTela()
