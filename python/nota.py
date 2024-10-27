@@ -13,17 +13,17 @@ media = (prova1 + prova2) / 2
 print(media)
 # exibir na tela a média
 
-if (media < 6):
+if (media > 6):
     # se a media for menor do que 6
 
-    print('aluno não passou')
+    print('aluno passou')
     
     # exibir na tela que o aluno não passou
 
 else:
     # se a media for maior do que 6
 
-    print('aluno passou')
+    print('aluno não passou')
 
     # exibir na tela que o aluno passou
 
