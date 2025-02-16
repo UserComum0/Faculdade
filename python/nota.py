@@ -1,9 +1,15 @@
 # Começo do Programa
 
-prova1 = int(input('Digite a nota da Primeira Prova: '))
+prova1 = 0.0
+prova2 = 0.0
+media = 0.0
+
+
+
+prova1 = float(input('Digite a nota da Primeira Prova: '))
 # Pedir nota da primeira prova para declarar a variável (Prova 1)
 
-prova2 = int(input('Digite a nota da Segunda Prova: '))
+prova2 = float(input('Digite a nota da Segunda Prova: '))
 # Pedir nota da segunda prova para declarar a variável (Prova 2)
 
 media = (prova1 + prova2) / 2
